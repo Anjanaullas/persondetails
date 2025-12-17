@@ -1,0 +1,98 @@
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+form {
+  display: flex;
+  flex-wrap: nowrap;   
+  align-items: center;
+  gap: 15px;
+  background: green;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  width:1000px
+}
+form input {
+  width: 180px;  
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+form button {
+  padding: 10px 15px;
+  background-color: blue;
+  color: green;
+  border: none;
+  border-radius: px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 4000px;
+}
+form button:hover {
+  background-color: blue;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  align-content: 'center';
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: 'center';
+  width:fit-content
+}
+li {
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  background: gray;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  width:100%;
+  max-width: 500px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-align: left;
+}
+.list{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+li img {
+  border-radius: 8px;
+  border: 2px solid whitesmoke;
+  width: 80px;       
+  height: 80px;      
+  object-fit: cover; 
+  
+}
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+li button:first-of-type {
+  background-color: lightgreen;
+  color: white;
+}
+li button:first-of-type:hover {
+  background-color: darkgreen;
+}
+li button:last-of-type {
+  background-color:red;
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background-color:maroon;
+}
